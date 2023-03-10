@@ -121,7 +121,6 @@ body {
     height: 1800px;
     margin-top: 25px;
     justify-self: center;
-    border: 1px solid greenyellow;
 }
 #box #garis{
     opacity: 0;
@@ -141,7 +140,7 @@ body {
     border-bottom: 3px solid #DBDBDA;
     transform: rotate(45deg);
     margin-left: 1565px;
-    margin-top: -3px;
+    margin-top: -0.5px;
 }
 #garis #grsc{
     width: 80px;
@@ -157,7 +156,7 @@ body {
     height: 1px;
     border-bottom: 3px solid #DBDBDA;
     margin-left: 1632px;
-    margin-top: -73px
+    margin-top: -72px
 
 }
 #garis #grse{
