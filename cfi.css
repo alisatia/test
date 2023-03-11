@@ -1,0 +1,622 @@
+#boxcfi{
+    position: relative;
+    height: 227px;
+    width: 120px;
+    margin-left: 1500px;
+    margin-top: 88px;
+    transition: .7s;
+    display: grid;
+    grid-template-rows: 125px 102px;
+}
+#boxcfi #cfi{
+    position: relative;
+    background: linear-gradient(90deg, #FFFFFF 0%, #000000 100%);
+    width: 120px;
+    height: 125px;
+    border-radius: 5px;
+    display: grid;
+    transition: .7s;
+}
+#boxcfi #cfi:hover{
+    transform: scale(1.03);
+}
+#boxcfi #cfi #bcfi{
+    background: linear-gradient(183.33deg, rgba(61, 161, 217, 0.8) 4.85%, #231F20 97%);
+    width: 118px;
+    height: 123px;
+    border-radius: 5px;
+    align-self: center;
+    justify-self: center;
+    color: white;
+    display: grid;
+    justify-items: center;
+    align-items: center;
+}
+#boxcfi #cfi #bcfi #bbcfi{
+    display: grid;
+    height: 90%;
+    width: 90%;
+    align-items: center;
+    justify-items: center;
+}
+#boxcfi #cfi #bcfi #bbcfi #isi1{
+    font-size: large;
+    width: 100%;
+    display: grid;
+    justify-items: center;
+    align-content: center;
+    margin-top: 10px;
+    background-image: url(assets/cfi.png);
+    background-repeat: no-repeat;
+    background-size: 25px;
+    height: 100%;
+}
+#boxcfi #cfi #bcfi #bbcfi #isi2{
+
+    font-size: x-large;
+}
+#boxcfi #cfi #bcfi #bbcfi #isi3{
+    font-size: x-small;
+}
+#boxcfi #cfi #bcfi #bbcfi #isi4{
+    width: 80%;
+    height: 50%;
+    background-color:#CF202E;
+    border-radius: 5px;
+}
+#boxcfi #cfi #bcfi #bbcfi #isi4 #bar{
+    position: relative;
+    height: 100%;
+    width: 90%;
+    background-color:#2EB574;
+    border-radius: 5px;
+}
+#boxcfi #cfi #bcfi #bbcfi #isi5{
+    font-size: x-small;
+    margin-bottom: 10px;
+}
+#boxcfi #boxcapek{
+    justify-self: start;
+    display: grid;
+    grid-template-rows: 40px 62px auto;
+    height: 1020px;
+    width: 400px;
+    opacity: 0;
+    transition: .7s;
+    /* border: 1px solid yellow; */
+    margin-left: 12px;
+}
+#boxcfi #boxcapek #grscfi{
+    width: 1px;
+    height: 40px;
+    border-left: 1px solid white;
+    margin-left: 48px;
+}
+#boxcfi #boxcapek #capek{
+    width: 95px;
+    height: 62px;
+    background: linear-gradient(90deg, #FFFFFF 0%, #000000 100%);
+    border-radius: 5px;
+    display: grid;
+    justify-items: center;
+    align-items: center;
+    transition: 0.7s;
+}
+#boxcfi #boxcapek #capek:hover{
+    transform: scale(1.03);
+}
+#boxcfi #boxcapek #capek #bcapek{
+    width: 92px;
+    height: 59px;
+    background: linear-gradient(90deg, rgba(42, 117, 161, 0.8) 0%, rgba(61, 161, 217, 0.8) 85.87%, rgba(61, 161, 217, 0.8) 100%);
+    border-radius: 5px;
+    display: grid;
+    justify-items: center;
+    align-content: center;
+}
+#boxcfi #boxcapek #capek #bcapek #bbcapek{
+    width: 83px;
+    height: 45px;
+    color: white;
+    display: grid;
+    justify-items: center;
+}
+#boxcfi #boxcapek #capek #bcapek #bbcapek #isi1{
+    font-size: x-small;
+}
+#boxcfi #boxcapek #capek #bcapek #bbcapek #isi2{
+    font-size: medium;
+}
+#boxcfi #boxcapek #subcapek{
+    opacity: 0;
+    width: 350px;
+    height: auto;
+    display: grid;
+    grid-template-areas: 
+    "grs kosong1 kosong1 kosong1 auto1"
+    "grs scgrs1 div1 scgrs1a auto1"
+    "grs kosong2 subdiv1 subdiv1 auto1"
+    "grs scgrs2 div2 scgrs2b scgrs2b"
+    "grs kosong3 kosong3 kosong3 auto2"
+    "grs scgrs3 div3 scgrs3c auto2"
+    "grs kosong4 kosong4 kosong4 auto2"
+    "grss scgrs4 div4 scgrs4d auto2"
+    ;
+    grid-template-columns: 1px 20px 125px 20px auto;
+    grid-template-rows: 20px 60px 10px 60px 10px 60px 10px 60px;
+    margin-left: 10px;
+    transition: 0.7s;
+}
+#boxcfi #boxcapek #subcapek #sbgrs{
+    grid-area: grs;
+    border-left: white 1px solid;
+    box-sizing: border-box;
+}
+#boxcfi #boxcapek #subcapek #sbgrss{
+    grid-area: grss;
+    height: 20px;
+    border-left: white 1px solid;
+    box-sizing: border-box;
+}
+#boxcfi #boxcapek #subcapek #scgrs1{
+    grid-area: scgrs1;
+    border-bottom: #DBDBDA 1px solid;
+    align-self: center;
+    box-sizing: border-box;
+}
+#boxcfi #boxcapek #subcapek #scgrs2{
+    grid-area: scgrs2;
+    border-bottom: #DBDBDA 1px solid;
+    align-self: center;
+    box-sizing: border-box;
+}
+#boxcfi #boxcapek #subcapek #scgrs3{
+    grid-area: scgrs3;
+    border-bottom: #DBDBDA 1px solid;
+    align-self: center;
+    box-sizing: border-box;
+}
+#boxcfi #boxcapek #subcapek #scgrs4{
+    grid-area: scgrs4;
+    display: grid;
+    grid-template-rows: 20px 20px 20px;
+    box-sizing: border-box;
+}
+#boxcfi #boxcapek #subcapek #scgrss1{
+    border-bottom: 1px solid #DBDBDA;
+    width: 15px;
+    transform-origin: bottom left;
+    transform: rotate(45deg);
+    box-sizing: border-box;
+}
+#boxcfi #boxcapek #subcapek #scgrss2{
+    width: 10px;
+    justify-self: end;
+    align-self: center;
+    border-bottom: 1px solid #DBDBDA;
+    box-sizing: border-box;
+}
+#boxcfi #boxcapek #subcapek #div1{
+    grid-area: div1;
+    width: 125px;
+    height: 60px;
+    border: #DBDBDA 1px solid;
+    border-radius: 10px;
+    color: #DBDBDA;
+    display: grid;
+    grid-template-rows: 5px 15px 30px auto;
+    justify-items: center;
+    align-items: center;
+    box-sizing: border-box;
+}
+#boxcfi #boxcapek #subcapek #div1:hover{
+    transform: scale(1.02);
+}
+#boxcfi #boxcapek #subcapek #div1 #isi1{
+    font-size: x-small;
+}
+#boxcfi #boxcapek #subcapek #subdiv1{
+    grid-area: subdiv1;
+    width: 311px;
+    height: 290px;
+    box-sizing: border-box;
+    margin-left: 10px;
+    display: grid;
+    grid-template-columns: 1px 20px 125px 165px;
+    grid-template-rows: 20px 60px 10px 60px 10px 60px 10px 60px;
+    grid-template-areas: 
+    "div1grs ksng1 ksng1 autos1"
+    "div1grs div1grs1 divbox1 autos1"
+    "div1grs ksng2 ksng2 auto1s"
+    "div1grs div1grs2 divbox2 subdivbox2"
+    "div1grs ksng3 ksng3 autos"
+    "div1grs div1grs3 divbox3 autos2"
+    "div1grs ksng4 ksng4 autos2"
+    "div1grsx div1grs4 divbox4 autos2"
+    ;
+    opacity: 0;
+    transition: 0.7s;
+    transform-origin: top left;
+    transform: rotate(45deg);
+}
+#boxcfi #boxcapek #subcapek #subdiv1 #div1grs{
+    grid-area: div1grs;
+    border-left: #DBDBDA 1px solid;
+    box-sizing: border-box;
+}
+#boxcfi #boxcapek #subcapek #subdiv1 #div1grsx{
+    grid-area: div1grsx;
+    height: 20px;
+    border-left: white 1px solid;
+    box-sizing: border-box;
+}
+#boxcfi #boxcapek #subcapek #subdiv1 #div1grs1{
+    grid-area: div1grs1;
+    border-bottom: #DBDBDA 1px solid;
+    align-self: center;
+    box-sizing: border-box;
+}
+#boxcfi #boxcapek #subcapek #subdiv1 #div1grs2{
+    grid-area: div1grs2;
+    border-bottom: #DBDBDA 1px solid;
+    align-self: center;
+    box-sizing: border-box;
+}
+#boxcfi #boxcapek #subcapek #subdiv1 #div1grs3{
+    grid-area: div1grs3;
+    border-bottom: #DBDBDA 1px solid;
+    align-self: center;
+    box-sizing: border-box;
+}
+#boxcfi #boxcapek #subcapek #subdiv1 #div1grs4{
+    grid-area: div1grs4;
+    display: grid;
+    grid-template-rows: 20px 20px 20px;
+    box-sizing: border-box;
+}
+#boxcfi #boxcapek #subcapek #subdiv1 #div1grs41{
+    border-bottom: 1px solid #DBDBDA;
+    width: 15px;
+    transform-origin: bottom left;
+    transform: rotate(45deg);
+    box-sizing: border-box;
+}
+#boxcfi #boxcapek #subcapek #subdiv1 #div1grs42{
+    width: 10px;
+    justify-self: end;
+    align-self: center;
+    border-bottom: 1px solid #DBDBDA;
+    box-sizing: border-box;
+}
+#boxcfi #boxcapek #subcapek #subdiv1 #divbox1{
+    grid-area: divbox1;
+    width: 125px;
+    height: 60px;
+    border: #DBDBDA 1px solid;
+    border-radius: 10px;
+    color: #DBDBDA;
+    display: grid;
+    grid-template-rows: 5px 15px 30px auto;
+    justify-items: center;
+    align-items: center;
+    box-sizing: border-box;
+}
+#boxcfi #boxcapek #subcapek #subdiv1 #divbox1 #isi1{
+    font-size: x-small;
+}
+#boxcfi #boxcapek #subcapek #subdiv1 #divbox1 #isi2{
+    font-size: medium;
+}
+#boxcfi #boxcapek #subcapek #subdiv1 #divbox2{
+    grid-area: divbox2;
+    width: 125px;
+    height: 60px;
+    border: #DBDBDA 1px solid;
+    border-radius: 10px;
+    color: #DBDBDA;
+    display: grid;
+    grid-template-rows: 5px 15px 30px auto;
+    justify-items: center;
+    align-items: center;
+    box-sizing: border-box;
+    transition: 0.7s;
+}
+#boxcfi #boxcapek #subcapek #subdiv1 #divbox2:hover{
+    transform: scale(1.02);
+}
+#boxcfi #boxcapek #subcapek #subdiv1 #divbox2 #isi1{
+    font-size: x-small;
+}
+#boxcfi #boxcapek #subcapek #subdiv1 #divbox2 #isi2{
+    font-size: medium;
+}
+#boxcfi #boxcapek #subcapek #subdiv1 #subdivbox2{
+    grid-area: subdivbox2;
+    align-self: center;
+    box-sizing: border-box;
+    display: grid;
+    grid-template-columns: 20px 1px 20px 125px;
+    grid-template-rows: 60px 10px 60px 10px 60px;
+    grid-template-areas: 
+    "sd2none1 sd2grs1 sd2grss1 sd2div1"
+    "sd2none1 sd2grs2 sd2grsnone1 sd2divnone1"
+    "sd2grs sd2grs2 sd2grss2 sd2div2"
+    "sd2none2 sd2grs2 sd2grsnone2 sd2divnone2"
+    "sd2none2 sd2grs3 sd2grss3 sd2div3"
+    ;
+    transition: 0.7s;
+    opacity: 0;
+}
+#boxcfi #boxcapek #subcapek #subdiv1 #subdivbox2 #sd2grs{
+    grid-area: sd2grs;
+    border-bottom: #DBDBDA 1px solid;
+    align-self: center;
+    box-sizing: border-box;
+}
+#boxcfi #boxcapek #subcapek #subdiv1 #subdivbox2 #sd2grs1{
+    grid-area: sd2grs1;
+    border-left: #DBDBDA 1px solid;
+    box-sizing: border-box;
+    height: 20px;
+    align-self: flex-end;
+}
+#boxcfi #boxcapek #subcapek #subdiv1 #subdivbox2 #sd2grs2{
+    grid-area: sd2grs2;
+    border-left: #DBDBDA 1px solid;
+    box-sizing: border-box;
+}
+#boxcfi #boxcapek #subcapek #subdiv1 #subdivbox2 #sd2grs3{
+    grid-area: sd2grs3;
+    border-left: #DBDBDA 1px solid;
+    box-sizing: border-box;
+    height: 20px;
+    align-self: flex-start;
+}
+#boxcfi #boxcapek #subcapek #subdiv1 #subdivbox2 #sd2grss1{
+    grid-area: sd2grss1;
+    display: grid;
+    grid-template-rows: 20px 20px 20px;
+    box-sizing: border-box;
+}
+#boxcfi #boxcapek #subcapek #subdiv1 #subdivbox2 #sd2grss1 #sd2grss11{
+    border-bottom: 1px solid #DBDBDA;
+    width: 15px;
+    transform-origin: bottom left;
+    transform: rotate(-45deg);
+    box-sizing: border-box;
+    align-self: self-start;
+}
+#boxcfi #boxcapek #subcapek #subdiv1 #subdivbox2 #sd2grss1 #sd2grss12{
+    width: 10px;
+    justify-self: end;
+    align-self: center;
+    border-bottom: 1px solid #DBDBDA;
+    box-sizing: border-box;
+}
+#boxcfi #boxcapek #subcapek #subdiv1 #subdivbox2 #sd2grss2{
+    grid-area: sd2grss2;
+    border-bottom: #DBDBDA 1px solid;
+    align-self: center;
+    box-sizing: border-box;
+}
+#boxcfi #boxcapek #subcapek #subdiv1 #subdivbox2 #sd2grss3{
+    grid-area: sd2grss3;
+    display: grid;
+    grid-template-rows: 20px 20px 20px;
+    box-sizing: border-box;
+}
+#boxcfi #boxcapek #subcapek #subdiv1 #subdivbox2 #sd2grss3 #sd2grss31{
+    border-bottom: 1px solid #DBDBDA;
+    width: 15px;
+    transform-origin: bottom left;
+    transform: rotate(45deg);
+    box-sizing: border-box;
+}
+#boxcfi #boxcapek #subcapek #subdiv1 #subdivbox2 #sd2grss3 #sd2grss32{
+    width: 10px;
+    justify-self: end;
+    align-self: center;
+    border-bottom: 1px solid #DBDBDA;
+    box-sizing: border-box;
+}
+#boxcfi #boxcapek #subcapek #subdiv1 #subdivbox2 #sd2div1{
+    grid-area: sd2div1;
+    width: 125px;
+    height: 60px;
+    border: #DBDBDA 1px solid;
+    border-radius: 10px;
+    color: #DBDBDA;
+    display: grid;
+    grid-template-rows: 5px 15px 30px auto;
+    justify-items: center;
+    align-items: center;
+    box-sizing: border-box;
+    transition: 0.7s;
+}
+#boxcfi #boxcapek #subcapek #subdiv1 #subdivbox2 #sd2div1 #isi1{
+    font-size: x-small;
+}
+#boxcfi #boxcapek #subcapek #subdiv1 #subdivbox2 #sd2div1 #isi2{
+    font-size: medium;
+}
+#boxcfi #boxcapek #subcapek #subdiv1 #subdivbox2 #sd2div2{
+    grid-area: sd2div2;
+    width: 125px;
+    height: 60px;
+    border: #DBDBDA 1px solid;
+    border-radius: 10px;
+    color: #DBDBDA;
+    display: grid;
+    grid-template-rows: 5px 15px 30px auto;
+    justify-items: center;
+    align-items: center;
+    box-sizing: border-box;
+    transition: 0.7s;
+}
+#boxcfi #boxcapek #subcapek #subdiv1 #subdivbox2 #sd2div2 #isi1{
+    font-size: x-small;
+}
+#boxcfi #boxcapek #subcapek #subdiv1 #subdivbox2 #sd2div2 #isi2{
+    font-size: medium;
+}
+#boxcfi #boxcapek #subcapek #subdiv1 #subdivbox2 #sd2div3{
+    grid-area: sd2div3;
+    width: 125px;
+    height: 60px;
+    border: #DBDBDA 1px solid;
+    border-radius: 10px;
+    color: #DBDBDA;
+    display: grid;
+    grid-template-rows: 5px 15px 25px 5px auto;
+    justify-items: center;
+    align-items: center;
+    box-sizing: border-box;
+    transition: 0.7s;
+}
+#boxcfi #boxcapek #subcapek #subdiv1 #subdivbox2 #sd2div3 #isi1{
+    font-size: x-small;
+}
+#boxcfi #boxcapek #subcapek #subdiv1 #subdivbox2 #sd2div3 #isi2{
+    font-size: medium;
+}
+#boxcfi #boxcapek #subcapek #subdiv1 #subdivbox2 #sd2div3 #isi3{
+    width: 70%;
+    border-bottom: red 1px solid;
+    align-self: center;
+    justify-self: center;
+}
+#boxcfi #boxcapek #subcapek #subdiv1 #divbox3{
+    grid-area: divbox3;
+    width: 125px;
+    height: 60px;
+    border: #DBDBDA 1px solid;
+    border-radius: 10px;
+    color: #DBDBDA;
+    display: grid;
+    grid-template-rows: 5px 15px 30px auto;
+    justify-items: center;
+    align-items: center;
+    box-sizing: border-box;
+}
+#boxcfi #boxcapek #subcapek #subdiv1 #divbox3 #isi1{
+    font-size: x-small;
+}
+#boxcfi #boxcapek #subcapek #subdiv1 #divbox3 #isi2{
+    font-size: medium;
+}
+#boxcfi #boxcapek #subcapek #subdiv1 #divbox4{
+    grid-area: divbox4;
+    width: 125px;
+    height: 60px;
+    border: #DBDBDA 1px solid;
+    border-radius: 10px;
+    color: #DBDBDA;
+    display: grid;
+    grid-template-rows: 5px 15px 30px auto;
+    justify-items: center;
+    align-items: center;
+    box-sizing: border-box;
+}
+#boxcfi #boxcapek #subcapek #subdiv1 #divbox4 #isi1{
+    font-size: x-small;
+}
+#boxcfi #boxcapek #subcapek #subdiv1 #divbox4 #isi2{
+    font-size: medium;
+}
+#boxcfi #boxcapek #subcapek #div1 #isi2{
+    font-size: medium;
+}
+#boxcfi #boxcapek #subcapek #div2{
+    grid-area: div2;
+    width: 125px;
+    height: 60px;
+    border: #DBDBDA 1px solid;
+    border-radius: 10px;
+    color: #DBDBDA;
+    display: grid;
+    grid-template-rows: 5px 15px 30px auto;
+    justify-items: center;
+    align-items: center;
+    box-sizing: border-box;
+    transition: 0.7s;
+}
+#boxcfi #boxcapek #subcapek #div2:hover{
+    transform: scale(1.02);
+}
+#boxcfi #boxcapek #subcapek #subdiv2{
+    grid-area: scgrs2b;
+    align-self: center;
+    box-sizing: border-box;
+    display: grid;
+    grid-template-columns: 20px 125px;
+    transition: 0.7s;
+    opacity: 0;
+}
+#boxcfi #boxcapek #subcapek #div21{
+    width: 125px;
+    height: 60px;
+    border: #DBDBDA 1px solid;
+    border-radius: 10px;
+    color: #DBDBDA;
+    display: grid;
+    grid-template-rows: 5px 15px 30px auto;
+    justify-items: center;
+    align-items: center;
+    box-sizing: border-box;
+    transition: 0.7s;
+}
+#boxcfi #boxcapek #subcapek #div21 #isi1{
+    font-size: x-small;
+}
+#boxcfi #boxcapek #subcapek #div21 #isi2{
+    font-size: medium;
+}
+#boxcfi #boxcapek #subcapek #subdiv2 #scgrs2b{
+    border-bottom: #DBDBDA 1px solid;
+    align-self: center;
+    box-sizing: border-box;
+}
+#boxcfi #boxcapek #subcapek #div2 #isi1{
+    font-size: x-small;
+}
+#boxcfi #boxcapek #subcapek #div2 #isi2{
+    font-size: medium;
+}
+#boxcfi #boxcapek #subcapek #div3{
+    grid-area: div3;
+    width: 125px;
+    height: 60px;
+    border: #DBDBDA 1px solid;
+    border-radius: 10px;
+    color: #DBDBDA;
+    display: grid;
+    grid-template-rows: 5px 15px 30px auto;
+    justify-items: center;
+    align-items: center;
+    box-sizing: border-box;
+}
+#boxcfi #boxcapek #subcapek #div3 #isi1{
+    font-size: x-small;
+}
+#boxcfi #boxcapek #subcapek #div3 #isi2{
+    font-size: medium;
+}
+#boxcfi #boxcapek #subcapek #div4{
+    grid-area: div4;
+    width: 125px;
+    height: 60px;
+    border: #DBDBDA 1px solid;
+    border-radius: 10px;
+    color: #DBDBDA;
+    display: grid;
+    grid-template-rows: 5px 15px 30px auto;
+    justify-items: center;
+    align-items: center;
+    box-sizing: border-box;
+}
+#boxcfi #boxcapek #subcapek #div4 #isi1{
+    font-size: x-small;
+}
+#boxcfi #boxcapek #subcapek #div4 #isi2{
+    font-size: medium;
+}
